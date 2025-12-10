@@ -112,7 +112,7 @@ public class CM2Beasiswa24 {
                 if (nUnggulan == 0) {
                     System.out.println("Unggulan\t\t: tidak ada");
                 } else {
-                    System.out.println("Unggulan\t\t: " + (unggulan / nUnggulan));
+                    System.out.println("Unggulan\t: " + (unggulan / nUnggulan));
                 }
 
                 if (nRiset == 0) {
