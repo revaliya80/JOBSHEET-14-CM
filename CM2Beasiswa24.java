@@ -70,6 +70,7 @@ public class CM2Beasiswa24 {
 
                 // pilihan menu 3
             } else if (pilih == 3) {
+                sc.nextLine();
                 System.out.print("Jenis dicari: ");
                 String cari = sc.nextLine();
                 boolean ketemu = false;
