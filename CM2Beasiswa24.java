@@ -95,11 +95,11 @@ public class CM2Beasiswa24 {
                         nReguler++;
                     }
                     if (jenis[i].equalsIgnoreCase("Unggulan")) {
-                        unggulan = 0;
+                        unggulan += ipk[i];
                         nUnggulan++;
                     }
                     if (jenis[i].equalsIgnoreCase("Riset")) {
-                        riset = 0;
+                        riset += ipk[i];
                         nRiset++;
                     }
                 }
