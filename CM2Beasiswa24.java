@@ -62,18 +62,21 @@ public class CM2Beasiswa24 {
                 if (jumlah == 0) {
                     System.out.println("Belum ada pendaftar.");
                 } else {
-                    System.out.println("+------+--------------------------+----------+----------+------------+");
-                    System.out.println("| No   | Nama                     | NIM      | IPK      | Jenis      |");
-                    System.out.println("+------+--------------------------+----------+----------+------------+");
+                    System.out.println(
+                            "+------+--------------------------+----------+----------+------------+--------------+");
+                    System.out.println(
+                            "| No   | Nama                     | NIM      | IPK      | Jenis      | Penghasilan  |");
+                    System.out.println(
+                            "+------+--------------------------+----------+----------+------------+--------------+");
 
                     for (int i = 0; i < jumlah; i++) {
-                        System.out.printf("| %-4d | %-24s | %-8s | %-8.2f | %-10s |\n",
-                                (i + 1), nama[i], nim[i], ipk[i], jenis[i]);
+                        System.out.printf("| %-4d | %-24s | %-8s | %-8.2f | %-10s | %-12d |\n",
+                                (i + 1), nama[i], nim[i], ipk[i], jenis[i], penghasilan[i]);
                     }
 
-                    System.out.println("+------+--------------------------+----------+----------+------------+");
+                    System.out.println(
+                            "+------+--------------------------+----------+----------+------------+--------------+");
                 }
-
                 // pilihan menu 3
             } else if (pilih == 3) {
                 sc.nextLine();
